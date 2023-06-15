@@ -30,7 +30,7 @@ echo "export COSMOS_WALLET_ADDRESS="$COSMOS_WALLET_ADDRESS >> $HOME/.bash_profil
 source $HOME/.bash_profile
 ```
 
-### import wallet (use your Empower Chain wallet mnemonic)
+### import Cosmos wallet (use your Empower Chain wallet mnemonic)
 ```
 gaiad keys add $COSMOS_WALLET --keyring-backend test --recover
 ```
@@ -83,7 +83,7 @@ echo "export STARGAZE_WALLET_ADDRESS="$STARGAZE_WALLET_ADDRESS >> $HOME/.bash_pr
 source $HOME/.bash_profile
 ```
 
-### import wallet (use your Empower Chain wallet mnemonic)
+### import Stargaze wallet (use your Empower Chain wallet mnemonic)
 ```
 starsd keys add $STARGAZE_WALLET --keyring-backend test --recover
 ```
@@ -136,7 +136,7 @@ echo "export OSMOSIS_WALLET_ADDRESS="$OSMOSIS_WALLET_ADDRESS >> $HOME/.bash_prof
 source $HOME/.bash_profile
 ```
 
-### import wallet (use your Empower Chain wallet mnemonic)
+### import Osmosis wallet (use your Empower Chain wallet mnemonic)
 ```
 osmosisd keys add $OSMOSIS_WALLET --keyring-backend test --recover
 ```
