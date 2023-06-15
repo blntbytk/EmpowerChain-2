@@ -50,6 +50,8 @@ gaiad tx ibc-transfer transfer transfer channel-2765 <empower-wallet-address> 50
 gaiad tx ibc-transfer transfer transfer channel-2765 <empower-wallet-address> 100000uatom --from=$COSMOS_WALLET --fees 5000uatom --chain-id theta-testnet-001 --keyring-backend test --node https://rpc.state-sync-01.theta-testnet.polypore.xyz:443
 ```
 
+[Cosmos Testnet Explorer](https://testnet.mintscan.io/cosmoshub-testnet)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -102,6 +104,8 @@ starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 50
 ```
 starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 100000ustars --from=$STARGAZE_WALLET --fees 2000ustars --chain-id elgafar-1 --keyring-backend test --node https://stargaze-testnet-rpc.polkachu.com:443
 ```
+
+[Stargaze Testnet Explorer](https://testnet.mintscan.io/cosmoshub-testnet)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -160,3 +164,5 @@ osmosisd tx ibc-transfer transfer transfer channel-155 <empower-wallet-address> 
 ```
 osmosisd tx ibc-transfer transfer transfer channel-155 <empower-wallet-address> 100000uosmo --from=$OSMOSIS_WALLET --fees 5000uosmo --chain-id osmo-test-5 --keyring-backend test --node https://rpc.osmotest5.osmosis.zone:443
 ```
+
+[Osmosis Testnet Explorer](https://testnet.mintscan.io/osmosis-testnet)
