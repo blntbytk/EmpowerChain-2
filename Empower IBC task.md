@@ -21,7 +21,7 @@ git checkout v10.0.1
 make install
 ```
 
-### Cosmos wallet variable setup (also import import your Empower Chain wallet mnemonic)
+### Cosmos wallet variable setup (also import your Empower Chain wallet mnemonic)
 ```
 COSMOS_WALLET=cosmos-wallet
 echo "export COSMOS_WALLET=cosmos-wallet" >> $HOME/.bash_profile
