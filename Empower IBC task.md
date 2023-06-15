@@ -1,6 +1,6 @@
 # Empower Chain Testnet IBC Tasks
 
-## IBC TRANSFER COMMANDS [EMPOWER-COSMOS] channel-2 <> channel-2765
+## IBC Transfer [EMPOWER-COSMOS] channel-2 <> channel-2765
 ### install go v1.20
 ```
 ver="1.20"
@@ -53,7 +53,7 @@ gaiad tx ibc-transfer transfer transfer channel-2765 <empower-wallet-address> 10
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## IBC TRANSFER COMMANDS [EMPOWER-STARGAZE] channel-1 <> channel-459
+## IBC Transfer [EMPOWER-STARGAZE] channel-1 <> channel-459
 ### install go v1.20
 ```
 ver="1.20"
@@ -106,7 +106,7 @@ starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 10
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## IBC TRANSFER COMMANDS [EMPOWER-OSMOSIS] channel-0 <> channel-155
+## IBC Transfer [EMPOWER-OSMOSIS] channel-0 <> channel-155
 ### install go v1.19
 ```
 ver="1.19"
