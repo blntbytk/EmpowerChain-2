@@ -24,8 +24,8 @@ make install
 ### Cosmos wallet variable setup
 ```
 COSMOS_WALLET=cosmos-wallet
-COSMOS_WALLET_ADDRESS=$(gaiad keys show $COSMOS_WALLET -a)
 echo "export COSMOS_WALLET=cosmos-wallet" >> $HOME/.bash_profile
+COSMOS_WALLET_ADDRESS=$(gaiad keys show $COSMOS_WALLET -a)
 echo "export COSMOS_WALLET_ADDRESS="$COSMOS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
@@ -79,8 +79,8 @@ make install
 ### Stargaze wallet variable setup
 ```
 STARGAZE_WALLET=stargaze-wallet
-STARGAZE_WALLET_ADDRESS=$(starsd keys show $STARGAZE_WALLET -a)
 echo "export STARGAZE_WALLET=stargaze-wallet" >> $HOME/.bash_profile
+STARGAZE_WALLET_ADDRESS=$(starsd keys show $STARGAZE_WALLET -a)
 echo "export STARGAZE_WALLET_ADDRESS="$STARGAZE_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
@@ -134,8 +134,8 @@ make install
 ### Osmosis wallet variable setup
 ```
 OSMOSIS_WALLET=osmosis-wallet
-OSMOSIS_WALLET_ADDRESS=$(osmosisd keys show $OSMOSIS_WALLET -a)
 echo "export OSMOSIS_WALLET=osmosis-wallet" >> $HOME/.bash_profile
+OSMOSIS_WALLET_ADDRESS=$(osmosisd keys show $OSMOSIS_WALLET -a)
 echo "export OSMOSIS_WALLET_ADDRESS="$OSMOSIS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
