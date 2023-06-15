@@ -21,7 +21,7 @@ git checkout v10.0.1
 make install
 ```
 
-### Cosmos wallet variable setup (also import your Empower Chain wallet mnemonic)
+### Cosmos wallet variables setup (also import your Empower Chain wallet mnemonic)
 ```
 COSMOS_WALLET=cosmos-wallet
 echo "export COSMOS_WALLET=cosmos-wallet" >> $HOME/.bash_profile
@@ -72,7 +72,7 @@ git checkout v10.0.0-beta.1
 make install
 ```
 
-### Stargaze wallet variable setup (also import your Empower Chain wallet mnemonic)
+### Stargaze wallet variables setup (also import your Empower Chain wallet mnemonic)
 ```
 STARGAZE_WALLET=stargaze-wallet
 echo "export STARGAZE_WALLET=stargaze-wallet" >> $HOME/.bash_profile
@@ -123,7 +123,7 @@ git checkout 15.1.0-testnet
 make install
 ```
 
-### Osmosis wallet variable setup (also import your Empower Chain wallet mnemonic)
+### Osmosis wallet variables setup (also import your Empower Chain wallet mnemonic)
 ```
 OSMOSIS_WALLET=osmosis-wallet
 echo "export OSMOSIS_WALLET=osmosis-wallet" >> $HOME/.bash_profile
