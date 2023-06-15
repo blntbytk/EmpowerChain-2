@@ -50,7 +50,8 @@ gaiad tx ibc-transfer transfer transfer channel-2765 <empower-wallet-address> 50
 gaiad tx ibc-transfer transfer transfer channel-2765 <empower-wallet-address> 100000uatom --from=$COSMOS_WALLET --fees 5000uatom --chain-id theta-testnet-001 --keyring-backend test --node https://rpc.state-sync-01.theta-testnet.polypore.xyz:443
 ```
 
---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## IBC TRANSFER COMMANDS [EMPOWER-STARGAZE] channel-1 <> channel-459
 ### install go v1.20
@@ -102,6 +103,7 @@ starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 50
 starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 100000ustars --from=$STARGAZE_WALLET --fees 2000ustars --chain-id elgafar-1 --keyring-backend test --node https://stargaze-testnet-rpc.polkachu.com:443
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## IBC TRANSFER COMMANDS [EMPOWER-OSMOSIS] channel-0 <> channel-155
