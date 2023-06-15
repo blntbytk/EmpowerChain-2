@@ -37,7 +37,7 @@ gaiad keys add $COSMOS_WALLET --keyring-backend test --recover
 
 ### Empower —> Cosmos transfer ($MPWR)
 ```
-empowerd tx ibc-transfer transfer transfer channel-2 <osmo-address> 100000umpwr --from=$WALLET --chain-id circulus-1 --packet-timeout-height 0-0 --fees 200umpwr
+empowerd tx ibc-transfer transfer transfer channel-2 <cosmos-address> 100000umpwr --from=$WALLET --chain-id circulus-1 --packet-timeout-height 0-0 --fees 200umpwr
 ```
 
 ### Cosmos —> Empower halfback transfer ($MPWR)
