@@ -1,4 +1,4 @@
-# Empower IBC task
+# Empower Chain Testnet IBC Tasks
 
 ## IBC TRANSFER COMMANDS [EMPOWER-COSMOS] channel-2 <> channel-2765
 ### install go v1.20
