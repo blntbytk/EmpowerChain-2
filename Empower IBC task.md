@@ -21,18 +21,14 @@ git checkout v10.0.1
 make install
 ```
 
-### Cosmos wallet variable setup
+### Cosmos wallet variable setup (also import import your Empower Chain wallet mnemonic)
 ```
 COSMOS_WALLET=cosmos-wallet
 echo "export COSMOS_WALLET=cosmos-wallet" >> $HOME/.bash_profile
+gaiad keys add $COSMOS_WALLET --keyring-backend test --recover
 COSMOS_WALLET_ADDRESS=$(gaiad keys show $COSMOS_WALLET -a)
 echo "export COSMOS_WALLET_ADDRESS="$COSMOS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
-```
-
-### import Cosmos wallet (use your Empower Chain wallet mnemonic)
-```
-gaiad keys add $COSMOS_WALLET --keyring-backend test --recover
 ```
 
 ### Empower —> Cosmos transfer ($MPWR)
@@ -76,18 +72,14 @@ git checkout v10.0.0-beta.1
 make install
 ```
 
-### Stargaze wallet variable setup
+### Stargaze wallet variable setup (also import your Empower Chain wallet mnemonic)
 ```
 STARGAZE_WALLET=stargaze-wallet
 echo "export STARGAZE_WALLET=stargaze-wallet" >> $HOME/.bash_profile
+starsd keys add $STARGAZE_WALLET --keyring-backend test --recover
 STARGAZE_WALLET_ADDRESS=$(starsd keys show $STARGAZE_WALLET -a)
 echo "export STARGAZE_WALLET_ADDRESS="$STARGAZE_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
-```
-
-### import Stargaze wallet (use your Empower Chain wallet mnemonic)
-```
-starsd keys add $STARGAZE_WALLET --keyring-backend test --recover
 ```
 
 ### Empower —> Stargaze transfer ($MPWR)
@@ -131,18 +123,14 @@ git checkout 15.1.0-testnet
 make install
 ```
 
-### Osmosis wallet variable setup
+### Osmosis wallet variable setup (also import your Empower Chain wallet mnemonic)
 ```
 OSMOSIS_WALLET=osmosis-wallet
 echo "export OSMOSIS_WALLET=osmosis-wallet" >> $HOME/.bash_profile
+osmosisd keys add $OSMOSIS_WALLET --keyring-backend test --recover
 OSMOSIS_WALLET_ADDRESS=$(osmosisd keys show $OSMOSIS_WALLET -a)
 echo "export OSMOSIS_WALLET_ADDRESS="$OSMOSIS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
-```
-
-### import Osmosis wallet (use your Empower Chain wallet mnemonic)
-```
-osmosisd keys add $OSMOSIS_WALLET --keyring-backend test --recover
 ```
 
 ### Empower —> Osmosis transfer ($MPWR)
