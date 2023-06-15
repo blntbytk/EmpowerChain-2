@@ -105,7 +105,7 @@ starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 50
 starsd tx ibc-transfer transfer transfer channel-459 <empower-wallet-address> 100000ustars --from=$STARGAZE_WALLET --fees 2000ustars --chain-id elgafar-1 --keyring-backend test --node https://stargaze-testnet-rpc.polkachu.com:443
 ```
 
-[Stargaze Testnet Explorer](https://testnet.mintscan.io/cosmoshub-testnet)
+[Stargaze Testnet Explorer](https://testnet-explorer.publicawesome.dev/stargaze)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
