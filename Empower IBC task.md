@@ -119,7 +119,7 @@ go version
 ```
 git clone https://github.com/osmosis-labs/osmosis osmosis
 cd osmosis
-git checkout 15.1.0-testnet
+git checkout v15.1.0-testnet
 make install
 ```
 
