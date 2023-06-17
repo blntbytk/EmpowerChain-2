@@ -26,6 +26,8 @@ make install
 COSMOS_WALLET=cosmos-wallet
 echo "export COSMOS_WALLET=cosmos-wallet" >> $HOME/.bash_profile
 gaiad keys add $COSMOS_WALLET --keyring-backend test --recover
+```
+```
 COSMOS_WALLET_ADDRESS=$(gaiad keys show $COSMOS_WALLET --keyring-backend test -a)
 echo "export COSMOS_WALLET_ADDRESS="$COSMOS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
