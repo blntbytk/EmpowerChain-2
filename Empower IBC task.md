@@ -79,6 +79,8 @@ make install
 STARGAZE_WALLET=stargaze-wallet
 echo "export STARGAZE_WALLET=stargaze-wallet" >> $HOME/.bash_profile
 starsd keys add $STARGAZE_WALLET --keyring-backend test --recover
+```
+```
 STARGAZE_WALLET_ADDRESS=$(starsd keys show $STARGAZE_WALLET --keyring-backend test -a)
 echo "export STARGAZE_WALLET_ADDRESS="$STARGAZE_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
@@ -130,6 +132,8 @@ make install
 OSMOSIS_WALLET=osmosis-wallet
 echo "export OSMOSIS_WALLET=osmosis-wallet" >> $HOME/.bash_profile
 osmosisd keys add $OSMOSIS_WALLET --keyring-backend test --recover
+```
+```
 OSMOSIS_WALLET_ADDRESS=$(osmosisd keys show $OSMOSIS_WALLET --keyring-backend test -a)
 echo "export OSMOSIS_WALLET_ADDRESS="$OSMOSIS_WALLET_ADDRESS >> $HOME/.bash_profile
 source $HOME/.bash_profile
