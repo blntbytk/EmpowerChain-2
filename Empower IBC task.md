@@ -1,4 +1,5 @@
 # Empower Chain Testnet IBC Tasks
+[Empower Testnet Explorer](https://empowerchain.exploreme.pro/dashboard)
 
 ## 1) IBC Transfer [EMPOWER-COSMOS] channel-2 <> channel-2765
 ### install go v1.20
